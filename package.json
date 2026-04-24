@@ -1,0 +1,29 @@
+{
+  "name": "drinkraknare",
+  "productName": "Hollys student",
+  "version": "1.0.0",
+  "description": "Beräkna åtgång av dryck för ditt event",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --mac dmg --universal"
+  },
+  "build": {
+    "appId": "se.hollys.student",
+    "productName": "Hollys student",
+    "files": [
+      "main.js",
+      "index.html",
+      "renderer.js",
+      "styles.css"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": "dmg"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.8.1"
+  }
+}
