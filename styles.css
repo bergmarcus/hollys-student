@@ -278,6 +278,18 @@ main {
   border-color: #7ab648;
 }
 
+.subway-preview {
+  margin-top: 14px;
+  background: #e8f8d8;
+  border: 1.5px solid #7ab648;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #3a6e10;
+  text-align: center;
+}
+
 /* Beer card */
 .beer-card {
   border: 1.5px solid #d4a843;
